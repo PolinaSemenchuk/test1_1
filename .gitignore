@@ -1,0 +1,50 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.ncb
+*.sdf
+*.opensdf
+*.log
+*.tmp
+
+# Build results
+bin/
+obj/
+Debug/
+Release/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+
+# Others
+*.dmp
+*.dbmdl
+*.dbproj.schemaview
+*.dbproj.user
+*.jfm
+*.pidb
+*.vspscc
+*.vssscc
+
+# Ignore directories and files from CI/CD tools
+!.github/
+!.gitlab-ci.yml
+!.travis.yml
+
+# Include project and solution files
+!*.csproj
+!*.vcxproj
+!*.vcxproj.filters
+!*.sln
+
+# Include source files
+!*.cpp
+!*.h
+!*.cs
+!*.xml
+!*.json
+!*.md
